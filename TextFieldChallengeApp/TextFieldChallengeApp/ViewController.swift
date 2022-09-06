@@ -21,7 +21,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         zipCodeTextField.delegate = zipCodeTextFieldDelegate
         cashTextField.delegate = cashFieldTextDelegate
-        lockableTextField.delegate = lockableTextFieldDelegate
         setupUI()
     }
     
