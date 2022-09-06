@@ -14,11 +14,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var lockableTextField: UITextField!
     @IBOutlet weak var lockSwitchButton: UISwitch!
     
+    let zipCodeTextFieldDelegate = ZipCodeTextFieldDelegate()
+    let cashFieldTextDelegate = CashFieldTextDelegate()
+    let lockableTextFieldDelegate = LockableTextFieldDelegate()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        zipCodeTextField.delegate = ZipCodeTextFieldDelegate()
-        cashTextField.delegate = CashFieldTextDelegate()
-        lockableTextField.delegate = LockableTextFieldDelegate()
+        zipCodeTextField.delegate = zipCodeTextFieldDelegate
+        cashTextField.delegate = cashFieldTextDelegate
+        lockableTextField.delegate = lockableTextFieldDelegate
         setupUI()
     }
     
