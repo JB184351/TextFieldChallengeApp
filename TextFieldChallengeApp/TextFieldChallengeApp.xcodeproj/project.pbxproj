@@ -16,7 +16,6 @@
 		C28515A728C1857F00079233 /* TextFieldDelegateEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28515A628C1857F00079233 /* TextFieldDelegateEnum.swift */; };
 		C28515A928C1868F00079233 /* ZipCodeTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28515A828C1868F00079233 /* ZipCodeTextFieldDelegate.swift */; };
 		C28515AB28C186AF00079233 /* CashTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28515AA28C186AF00079233 /* CashTextFieldDelegate.swift */; };
-		C28515AD28C186BC00079233 /* LockableTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28515AC28C186BC00079233 /* LockableTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		C28515A628C1857F00079233 /* TextFieldDelegateEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDelegateEnum.swift; sourceTree = "<group>"; };
 		C28515A828C1868F00079233 /* ZipCodeTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipCodeTextFieldDelegate.swift; sourceTree = "<group>"; };
 		C28515AA28C186AF00079233 /* CashTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashTextFieldDelegate.swift; sourceTree = "<group>"; };
-		C28515AC28C186BC00079233 /* LockableTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockableTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +80,6 @@
 			children = (
 				C28515A828C1868F00079233 /* ZipCodeTextFieldDelegate.swift */,
 				C28515AA28C186AF00079233 /* CashTextFieldDelegate.swift */,
-				C28515AC28C186BC00079233 /* LockableTextFieldDelegate.swift */,
 			);
 			path = TextFieldDelegates;
 			sourceTree = "<group>";
@@ -158,7 +155,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C28515AD28C186BC00079233 /* LockableTextFieldDelegate.swift in Sources */,
 				C285159728C17D2100079233 /* ViewController.swift in Sources */,
 				C28515AB28C186AF00079233 /* CashTextFieldDelegate.swift in Sources */,
 				C285159328C17D2100079233 /* AppDelegate.swift in Sources */,

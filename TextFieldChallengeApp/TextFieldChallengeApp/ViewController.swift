@@ -16,7 +16,6 @@ class ViewController: UIViewController {
     
     let zipCodeTextFieldDelegate = ZipCodeTextFieldDelegate()
     let cashFieldTextDelegate = CashFieldTextDelegate()
-    let lockableTextFieldDelegate = LockableTextFieldDelegate()
     
     override func viewDidLoad() {
         super.viewDidLoad()
